@@ -17,9 +17,8 @@ change that.
 ## How to send it
 
 Open an issue with the files attached, or a pull request that adds a folder `contrib/<short-name>/`
-with the Touchstone files and a `case.md` describing the geometry. Say how you would like to be
-credited (name, company, or anonymous). Only send data you are allowed to share; it will be
-published here under CC BY 4.0.
+with the Touchstone files and a `case.md` describing the geometry. Only send data you are allowed
+to share; it will be published here under CC BY 4.0.
 
 ## What happens next
 

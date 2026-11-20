@@ -34,8 +34,14 @@ traces attached) that is compared openly with one. The calculators' code is clos
 ## Contributing reference data
 
 Measured S-parameters or 3D simulations of traces or vias, with full geometry, are the most useful
-thing anyone can add. See `CONTRIBUTING.md`; contributors are credited in the case.
+thing anyone can add. See `CONTRIBUTING.md`.
 
 ## Licence
 
-See `LICENSE.md`: the data and documents are CC BY 4.0, the scripts are MIT.
+- **Data and documents** (`impedora/`, `docs/`, `fullwave/cases.json`, `fullwave/results.json` and
+  every Markdown file): Creative Commons Attribution 4.0 International, in `LICENSE`. Reuse them for
+  any purpose, commercial included, with credit to "Impedora validation data, impedora.com".
+- **Code** (every `.py` file and `fullwave/Dockerfile`): MIT, in `LICENSE-MIT`.
+
+The 3D solver itself, [Palace](https://github.com/awslabs/palace), is Apache-2.0 and is installed by
+the container recipe; it is not part of this repository.
