@@ -1,8 +1,8 @@
 # Contributing reference data
 
 Impedora's models are checked against exact solutions, independent solvers and a 3D field solver.
-None of it has been compared with a measured board yet. Measured or simulated data from you can
-change that.
+Measured boards make those checks stronger: every measurement you share becomes a reference case,
+and every release is checked against it.
 
 ## What helps most
 
